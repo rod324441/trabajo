@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Sección Principal */
+  .contenido {
+    margin-top: 20px;
+  }
+  
+  /* Títulos de secciones */
+  h2 {
+    color: #0066cc;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  /* Párrafos */
+  p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  /* Estilos para imágenes flotantes dentro del contenido */
+  .imagen-left, .imagen-right {
+    display: block;
+    max-width: 500px; /* Limita el tamaño de las imágenes */
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .imagen-left {
+    float: center;
+    margin-right: 20px;
+  }
+  
+  .imagen-right {
+    float: center;
+    margin-left: 20px;
+  }
+  
+  /* Contenedor Flex para las secciones */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .flex-item {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  /* Estilo para tablas */
+  table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #003366;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para las imágenes dentro de la tabla */
+  .tabla-imagen {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0066cc;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
